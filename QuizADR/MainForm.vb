@@ -216,8 +216,8 @@
     Private Sub ExamTimer_Tick(sender As Object, e As EventArgs) Handles ExamTimer.Tick
         ' Show elapsed time to user
         With TimeSpan.FromSeconds(ElapsedTime)
-            TimeLabel.Text = Format(.TotalHours, "0") &
-                                  ":" & Fix(.TotalMinutes).ToString &
+            TimeLabel.Text = Format(.Hours, "0") &
+                                  ":" & Fix(.Minutes).ToString &
                                   ":" & Format(.Seconds, "00")
         End With
 
