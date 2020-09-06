@@ -64,6 +64,9 @@ Partial Class MainForm
         '
         'GroupBox1
         '
+        Me.GroupBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox1.Controls.Add(Me.TimeLabel)
         Me.GroupBox1.Controls.Add(Me.TimeTextLabel)
         Me.GroupBox1.Controls.Add(Me.ThreeErrorLabel)
@@ -85,16 +88,17 @@ Partial Class MainForm
         Me.GroupBox1.Controls.Add(Me.CategoryLabel)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(766, 320)
+        Me.GroupBox1.Size = New System.Drawing.Size(821, 357)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Schede esame"
         '
         'TimeLabel
         '
+        Me.TimeLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.TimeLabel.AutoSize = True
         Me.TimeLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TimeLabel.Location = New System.Drawing.Point(87, 289)
+        Me.TimeLabel.Location = New System.Drawing.Point(114, 326)
         Me.TimeLabel.Name = "TimeLabel"
         Me.TimeLabel.Size = New System.Drawing.Size(48, 18)
         Me.TimeLabel.TabIndex = 16
@@ -103,9 +107,10 @@ Partial Class MainForm
         '
         'TimeTextLabel
         '
+        Me.TimeTextLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.TimeTextLabel.AutoSize = True
         Me.TimeTextLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TimeTextLabel.Location = New System.Drawing.Point(13, 289)
+        Me.TimeTextLabel.Location = New System.Drawing.Point(40, 326)
         Me.TimeTextLabel.Name = "TimeTextLabel"
         Me.TimeTextLabel.Size = New System.Drawing.Size(59, 18)
         Me.TimeTextLabel.TabIndex = 15
@@ -150,7 +155,8 @@ Partial Class MainForm
         '
         'NextTabButton
         '
-        Me.NextTabButton.Location = New System.Drawing.Point(650, 285)
+        Me.NextTabButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.NextTabButton.Location = New System.Drawing.Point(705, 322)
         Me.NextTabButton.Name = "NextTabButton"
         Me.NextTabButton.Size = New System.Drawing.Size(110, 29)
         Me.NextTabButton.TabIndex = 1
@@ -159,7 +165,8 @@ Partial Class MainForm
         '
         'PrevTabButton
         '
-        Me.PrevTabButton.Location = New System.Drawing.Point(528, 285)
+        Me.PrevTabButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PrevTabButton.Location = New System.Drawing.Point(583, 322)
         Me.PrevTabButton.Name = "PrevTabButton"
         Me.PrevTabButton.Size = New System.Drawing.Size(110, 29)
         Me.PrevTabButton.TabIndex = 2
@@ -168,9 +175,10 @@ Partial Class MainForm
         '
         'IndexLabel
         '
+        Me.IndexLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.IndexLabel.AutoSize = True
         Me.IndexLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IndexLabel.Location = New System.Drawing.Point(452, 289)
+        Me.IndexLabel.Location = New System.Drawing.Point(479, 326)
         Me.IndexLabel.Name = "IndexLabel"
         Me.IndexLabel.Size = New System.Drawing.Size(29, 18)
         Me.IndexLabel.TabIndex = 9
@@ -178,9 +186,10 @@ Partial Class MainForm
         '
         'Panel3
         '
+        Me.Panel3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel3.Controls.Add(Me.QuestionThreeFalse)
         Me.Panel3.Controls.Add(Me.QuestionThreeTrue)
-        Me.Panel3.Location = New System.Drawing.Point(650, 203)
+        Me.Panel3.Location = New System.Drawing.Point(705, 203)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(104, 28)
         Me.Panel3.TabIndex = 1
@@ -207,9 +216,10 @@ Partial Class MainForm
         '
         'Panel2
         '
+        Me.Panel2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel2.Controls.Add(Me.QuestionTwoFalse)
         Me.Panel2.Controls.Add(Me.QuestionTwoTrue)
-        Me.Panel2.Location = New System.Drawing.Point(650, 144)
+        Me.Panel2.Location = New System.Drawing.Point(705, 144)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(104, 28)
         Me.Panel2.TabIndex = 1
@@ -236,9 +246,10 @@ Partial Class MainForm
         '
         'Panel1
         '
+        Me.Panel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.Controls.Add(Me.QuestionOneTrue)
         Me.Panel1.Controls.Add(Me.QuestionOneFalse)
-        Me.Panel1.Location = New System.Drawing.Point(650, 85)
+        Me.Panel1.Location = New System.Drawing.Point(705, 85)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(104, 28)
         Me.Panel1.TabIndex = 1
@@ -265,28 +276,34 @@ Partial Class MainForm
         '
         'QuestionThreeLabel
         '
+        Me.QuestionThreeLabel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.QuestionThreeLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.QuestionThreeLabel.Location = New System.Drawing.Point(87, 204)
         Me.QuestionThreeLabel.Name = "QuestionThreeLabel"
-        Me.QuestionThreeLabel.Size = New System.Drawing.Size(557, 66)
+        Me.QuestionThreeLabel.Size = New System.Drawing.Size(612, 66)
         Me.QuestionThreeLabel.TabIndex = 8
         Me.QuestionThreeLabel.Text = "************************* "
         '
         'QuestionTwoLabel
         '
+        Me.QuestionTwoLabel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.QuestionTwoLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.QuestionTwoLabel.Location = New System.Drawing.Point(87, 145)
         Me.QuestionTwoLabel.Name = "QuestionTwoLabel"
-        Me.QuestionTwoLabel.Size = New System.Drawing.Size(557, 59)
+        Me.QuestionTwoLabel.Size = New System.Drawing.Size(612, 59)
         Me.QuestionTwoLabel.TabIndex = 7
         Me.QuestionTwoLabel.Text = "************************* "
         '
         'QuestionOneLabel
         '
+        Me.QuestionOneLabel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.QuestionOneLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.QuestionOneLabel.Location = New System.Drawing.Point(87, 86)
         Me.QuestionOneLabel.Name = "QuestionOneLabel"
-        Me.QuestionOneLabel.Size = New System.Drawing.Size(557, 59)
+        Me.QuestionOneLabel.Size = New System.Drawing.Size(612, 59)
         Me.QuestionOneLabel.TabIndex = 6
         Me.QuestionOneLabel.Text = "************************* "
         '
@@ -322,19 +339,22 @@ Partial Class MainForm
         '
         'MainQuestionLabel
         '
+        Me.MainQuestionLabel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.MainQuestionLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MainQuestionLabel.Location = New System.Drawing.Point(6, 20)
         Me.MainQuestionLabel.Name = "MainQuestionLabel"
-        Me.MainQuestionLabel.Size = New System.Drawing.Size(754, 57)
+        Me.MainQuestionLabel.Size = New System.Drawing.Size(809, 57)
         Me.MainQuestionLabel.TabIndex = 2
         Me.MainQuestionLabel.Text = "************************* "
         '
         'CategoryLabel
         '
+        Me.CategoryLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.CategoryLabel.AutoSize = True
         Me.CategoryLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CategoryLabel.ForeColor = System.Drawing.Color.SaddleBrown
-        Me.CategoryLabel.Location = New System.Drawing.Point(276, 289)
+        Me.CategoryLabel.Location = New System.Drawing.Point(303, 326)
         Me.CategoryLabel.Name = "CategoryLabel"
         Me.CategoryLabel.Size = New System.Drawing.Size(47, 18)
         Me.CategoryLabel.TabIndex = 1
@@ -342,8 +362,9 @@ Partial Class MainForm
         '
         'ResultLabel
         '
+        Me.ResultLabel.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.ResultLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ResultLabel.Location = New System.Drawing.Point(301, 356)
+        Me.ResultLabel.Location = New System.Drawing.Point(299, 395)
         Me.ResultLabel.Name = "ResultLabel"
         Me.ResultLabel.Size = New System.Drawing.Size(321, 19)
         Me.ResultLabel.TabIndex = 11
@@ -352,9 +373,10 @@ Partial Class MainForm
         '
         'ResultTextLabel
         '
+        Me.ResultTextLabel.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.ResultTextLabel.AutoSize = True
         Me.ResultTextLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ResultTextLabel.Location = New System.Drawing.Point(259, 356)
+        Me.ResultTextLabel.Location = New System.Drawing.Point(257, 395)
         Me.ResultTextLabel.Name = "ResultTextLabel"
         Me.ResultTextLabel.Size = New System.Drawing.Size(39, 13)
         Me.ResultTextLabel.TabIndex = 10
@@ -363,7 +385,8 @@ Partial Class MainForm
         '
         'NewExamButton
         '
-        Me.NewExamButton.Location = New System.Drawing.Point(12, 350)
+        Me.NewExamButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.NewExamButton.Location = New System.Drawing.Point(10, 389)
         Me.NewExamButton.Name = "NewExamButton"
         Me.NewExamButton.Size = New System.Drawing.Size(107, 25)
         Me.NewExamButton.TabIndex = 1
@@ -372,7 +395,8 @@ Partial Class MainForm
         '
         'AnswerCheckButton
         '
-        Me.AnswerCheckButton.Location = New System.Drawing.Point(137, 350)
+        Me.AnswerCheckButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.AnswerCheckButton.Location = New System.Drawing.Point(135, 389)
         Me.AnswerCheckButton.Name = "AnswerCheckButton"
         Me.AnswerCheckButton.Size = New System.Drawing.Size(107, 25)
         Me.AnswerCheckButton.TabIndex = 1
@@ -381,7 +405,8 @@ Partial Class MainForm
         '
         'CloseButton
         '
-        Me.CloseButton.Location = New System.Drawing.Point(671, 347)
+        Me.CloseButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.CloseButton.Location = New System.Drawing.Point(727, 391)
         Me.CloseButton.Name = "CloseButton"
         Me.CloseButton.Size = New System.Drawing.Size(107, 25)
         Me.CloseButton.TabIndex = 2
@@ -396,7 +421,7 @@ Partial Class MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(790, 384)
+        Me.ClientSize = New System.Drawing.Size(846, 428)
         Me.Controls.Add(Me.CloseButton)
         Me.Controls.Add(Me.AnswerCheckButton)
         Me.Controls.Add(Me.NewExamButton)

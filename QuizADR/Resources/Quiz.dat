@@ -1420,8 +1420,8 @@ GI-006	Nel caso si utilizzino recipienti a pressione per materie liquide o solid
 	3	Dopo il riempimento l'imballatore deve verificare la tenuta delle chiusure e dell'equipaggiamento	V
 
 GI-007	Cosa si intende per collo?
-	1	Ad esempio un recipiente di vetro, porcellana o gres, riempito del suo contenuto, protetto dagli urti da un secondo imballaggio esterno, regolarmente etichettato	F
-	2	Il recipiente o l'imballaggio, riconosciuto idoneo al trasporto di determinate categorie di merci peri-colose, pronto per essere riempito	V
+	1	Ad esempio un recipiente di vetro, porcellana o gres, riempito del suo contenuto, protetto dagli urti da un secondo imballaggio esterno, regolarmente etichettato	V
+	2	Il recipiente o l'imballaggio, riconosciuto idoneo al trasporto di determinate categorie di merci peri-colose, pronto per essere riempito	F
 	3	L'imballaggio piu il suo contenuto di materia pericolosa pronto per essere spedito	V
 
 GI-008	Cosa si intende per imballaggio?
