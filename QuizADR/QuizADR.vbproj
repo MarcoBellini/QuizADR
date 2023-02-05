@@ -173,6 +173,7 @@
   <ItemGroup>
     <Content Include="Resources\adr2021.ico" />
     <Content Include="Resources\adr2021.jpg" />
+    <Content Include="Resources\AppExample.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
