@@ -97,10 +97,10 @@ Partial Class MainForm
         '
         Me.TimeLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.TimeLabel.AutoSize = True
-        Me.TimeLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TimeLabel.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TimeLabel.Location = New System.Drawing.Point(114, 326)
         Me.TimeLabel.Name = "TimeLabel"
-        Me.TimeLabel.Size = New System.Drawing.Size(48, 18)
+        Me.TimeLabel.Size = New System.Drawing.Size(47, 20)
         Me.TimeLabel.TabIndex = 16
         Me.TimeLabel.Text = "0:0:00"
         Me.TimeLabel.Visible = False
@@ -109,10 +109,10 @@ Partial Class MainForm
         '
         Me.TimeTextLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.TimeTextLabel.AutoSize = True
-        Me.TimeTextLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TimeTextLabel.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TimeTextLabel.Location = New System.Drawing.Point(40, 326)
         Me.TimeTextLabel.Name = "TimeTextLabel"
-        Me.TimeTextLabel.Size = New System.Drawing.Size(59, 18)
+        Me.TimeTextLabel.Size = New System.Drawing.Size(58, 20)
         Me.TimeTextLabel.TabIndex = 15
         Me.TimeTextLabel.Text = "Tempo:"
         Me.TimeTextLabel.Visible = False
@@ -120,11 +120,11 @@ Partial Class MainForm
         'ThreeErrorLabel
         '
         Me.ThreeErrorLabel.AutoSize = True
-        Me.ThreeErrorLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ThreeErrorLabel.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ThreeErrorLabel.ForeColor = System.Drawing.Color.Red
         Me.ThreeErrorLabel.Location = New System.Drawing.Point(0, 207)
         Me.ThreeErrorLabel.Name = "ThreeErrorLabel"
-        Me.ThreeErrorLabel.Size = New System.Drawing.Size(56, 13)
+        Me.ThreeErrorLabel.Size = New System.Drawing.Size(52, 13)
         Me.ThreeErrorLabel.TabIndex = 14
         Me.ThreeErrorLabel.Text = "Errata ->"
         Me.ThreeErrorLabel.Visible = False
@@ -132,11 +132,11 @@ Partial Class MainForm
         'TwoErrorLabel
         '
         Me.TwoErrorLabel.AutoSize = True
-        Me.TwoErrorLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TwoErrorLabel.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TwoErrorLabel.ForeColor = System.Drawing.Color.Red
         Me.TwoErrorLabel.Location = New System.Drawing.Point(0, 148)
         Me.TwoErrorLabel.Name = "TwoErrorLabel"
-        Me.TwoErrorLabel.Size = New System.Drawing.Size(56, 13)
+        Me.TwoErrorLabel.Size = New System.Drawing.Size(52, 13)
         Me.TwoErrorLabel.TabIndex = 13
         Me.TwoErrorLabel.Text = "Errata ->"
         Me.TwoErrorLabel.Visible = False
@@ -144,11 +144,11 @@ Partial Class MainForm
         'OneErrorLabel
         '
         Me.OneErrorLabel.AutoSize = True
-        Me.OneErrorLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OneErrorLabel.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OneErrorLabel.ForeColor = System.Drawing.Color.Red
         Me.OneErrorLabel.Location = New System.Drawing.Point(0, 89)
         Me.OneErrorLabel.Name = "OneErrorLabel"
-        Me.OneErrorLabel.Size = New System.Drawing.Size(56, 13)
+        Me.OneErrorLabel.Size = New System.Drawing.Size(52, 13)
         Me.OneErrorLabel.TabIndex = 12
         Me.OneErrorLabel.Text = "Errata ->"
         Me.OneErrorLabel.Visible = False
@@ -166,9 +166,9 @@ Partial Class MainForm
         'PrevTabButton
         '
         Me.PrevTabButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PrevTabButton.Location = New System.Drawing.Point(583, 322)
+        Me.PrevTabButton.Location = New System.Drawing.Point(578, 322)
         Me.PrevTabButton.Name = "PrevTabButton"
-        Me.PrevTabButton.Size = New System.Drawing.Size(110, 29)
+        Me.PrevTabButton.Size = New System.Drawing.Size(115, 29)
         Me.PrevTabButton.TabIndex = 2
         Me.PrevTabButton.Text = "Scheda precedente"
         Me.PrevTabButton.UseVisualStyleBackColor = True
@@ -177,10 +177,10 @@ Partial Class MainForm
         '
         Me.IndexLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.IndexLabel.AutoSize = True
-        Me.IndexLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IndexLabel.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.IndexLabel.Location = New System.Drawing.Point(479, 326)
         Me.IndexLabel.Name = "IndexLabel"
-        Me.IndexLabel.Size = New System.Drawing.Size(29, 18)
+        Me.IndexLabel.Size = New System.Drawing.Size(30, 20)
         Me.IndexLabel.TabIndex = 9
         Me.IndexLabel.Text = "***"
         '
@@ -278,7 +278,7 @@ Partial Class MainForm
         '
         Me.QuestionThreeLabel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.QuestionThreeLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.QuestionThreeLabel.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.QuestionThreeLabel.Location = New System.Drawing.Point(87, 204)
         Me.QuestionThreeLabel.Name = "QuestionThreeLabel"
         Me.QuestionThreeLabel.Size = New System.Drawing.Size(612, 66)
@@ -289,7 +289,7 @@ Partial Class MainForm
         '
         Me.QuestionTwoLabel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.QuestionTwoLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.QuestionTwoLabel.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.QuestionTwoLabel.Location = New System.Drawing.Point(87, 145)
         Me.QuestionTwoLabel.Name = "QuestionTwoLabel"
         Me.QuestionTwoLabel.Size = New System.Drawing.Size(612, 59)
@@ -300,7 +300,7 @@ Partial Class MainForm
         '
         Me.QuestionOneLabel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.QuestionOneLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.QuestionOneLabel.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.QuestionOneLabel.Location = New System.Drawing.Point(87, 86)
         Me.QuestionOneLabel.Name = "QuestionOneLabel"
         Me.QuestionOneLabel.Size = New System.Drawing.Size(612, 59)
@@ -310,30 +310,30 @@ Partial Class MainForm
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(56, 203)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(21, 18)
+        Me.Label4.Size = New System.Drawing.Size(19, 17)
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "3)"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(56, 144)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(21, 18)
+        Me.Label3.Size = New System.Drawing.Size(19, 17)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "2)"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(56, 85)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(21, 18)
+        Me.Label2.Size = New System.Drawing.Size(19, 17)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "1)"
         '
@@ -341,7 +341,8 @@ Partial Class MainForm
         '
         Me.MainQuestionLabel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.MainQuestionLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MainQuestionLabel.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.MainQuestionLabel.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MainQuestionLabel.Location = New System.Drawing.Point(6, 20)
         Me.MainQuestionLabel.Name = "MainQuestionLabel"
         Me.MainQuestionLabel.Size = New System.Drawing.Size(809, 57)
@@ -352,18 +353,18 @@ Partial Class MainForm
         '
         Me.CategoryLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.CategoryLabel.AutoSize = True
-        Me.CategoryLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CategoryLabel.ForeColor = System.Drawing.Color.SaddleBrown
+        Me.CategoryLabel.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CategoryLabel.ForeColor = System.Drawing.Color.Sienna
         Me.CategoryLabel.Location = New System.Drawing.Point(303, 326)
         Me.CategoryLabel.Name = "CategoryLabel"
-        Me.CategoryLabel.Size = New System.Drawing.Size(47, 18)
+        Me.CategoryLabel.Size = New System.Drawing.Size(47, 20)
         Me.CategoryLabel.TabIndex = 1
         Me.CategoryLabel.Text = " -****"
         '
         'ResultLabel
         '
         Me.ResultLabel.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.ResultLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ResultLabel.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ResultLabel.Location = New System.Drawing.Point(299, 395)
         Me.ResultLabel.Name = "ResultLabel"
         Me.ResultLabel.Size = New System.Drawing.Size(321, 19)
@@ -375,10 +376,10 @@ Partial Class MainForm
         '
         Me.ResultTextLabel.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.ResultTextLabel.AutoSize = True
-        Me.ResultTextLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ResultTextLabel.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ResultTextLabel.Location = New System.Drawing.Point(257, 395)
         Me.ResultTextLabel.Name = "ResultTextLabel"
-        Me.ResultTextLabel.Size = New System.Drawing.Size(39, 13)
+        Me.ResultTextLabel.Size = New System.Drawing.Size(35, 13)
         Me.ResultTextLabel.TabIndex = 10
         Me.ResultTextLabel.Text = "Esito:"
         Me.ResultTextLabel.Visible = False
@@ -428,6 +429,7 @@ Partial Class MainForm
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.ResultLabel)
         Me.Controls.Add(Me.ResultTextLabel)
+        Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "MainForm"

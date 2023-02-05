@@ -60,7 +60,8 @@ Public Class QuizFileReader
         lElapsedMilliseconds = QueryPerformance.ElapsedMilliseconds
 
 #If DEBUG Then
-        Debug.Print("Loading time(ms): " & lElapsedMilliseconds.ToString)
+        Debug.WriteLine("Loading time(ms): " & lElapsedMilliseconds.ToString)
+        Debug.WriteLine("Questions Loaded: " & CategoryTitleRegexMatches.Count.ToString)
 #End If
 
         ' Free unused resources

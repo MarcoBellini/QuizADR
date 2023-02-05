@@ -9,10 +9,10 @@ Imports System.Runtime.InteropServices
 ' Controllare i valori degli attributi degli assembly
 
 <Assembly: AssemblyTitle("QuizADR")>
-<Assembly: AssemblyDescription("Applicazione per esercitarsi sull'esame ADR 2019")>
+<Assembly: AssemblyDescription("Applicazione per esercitarsi sull'esame ADR 2021")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("QuizADR")>
-<Assembly: AssemblyCopyright("Copyright ©  2020")>
+<Assembly: AssemblyCopyright("Copyright © Marco Bellini  2023")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>

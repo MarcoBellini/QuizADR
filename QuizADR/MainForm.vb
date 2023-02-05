@@ -11,13 +11,9 @@
         Try
             MainExam = New ExamManager()
 
-            ' Ask user if start new session
-            If MessageBox.Show("Avviare l'applicazione e iniziare nuovo esame?", "Quiz ADR", MessageBoxButtons.YesNo) = DialogResult.Yes Then
-                NewExam()
-                UpdateTab()
-            Else
-                Me.Close()
-            End If
+            NewExam()
+            UpdateTab()
+
         Catch ex As Exception
             MsgBox("Impossibile avviare l'applicazione. Errore: " & ex.Message)
             Close()
