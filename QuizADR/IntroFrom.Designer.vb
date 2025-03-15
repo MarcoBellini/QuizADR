@@ -50,7 +50,7 @@ Partial Class IntroFrom
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(245, 30)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "QuizADR Edizione 2021"
+        Me.Label1.Text = "QuizADR Edizione 2023"
         '
         'Button1
         '
@@ -90,7 +90,7 @@ Partial Class IntroFrom
         Me.LinkLabel1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkLabel1.Location = New System.Drawing.Point(312, 74)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(220, 13)
+        Me.LinkLabel1.Size = New System.Drawing.Size(221, 13)
         Me.LinkLabel1.TabIndex = 4
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "https://github.com/MarcoBellini/QuizADR"
@@ -115,7 +115,7 @@ Partial Class IntroFrom
         Me.MinimumSize = New System.Drawing.Size(672, 218)
         Me.Name = "IntroFrom"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "QuizADR Edizione 2021"
+        Me.Text = "QuizADR Edizione 2023"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

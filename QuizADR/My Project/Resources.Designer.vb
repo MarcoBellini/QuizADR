@@ -63,20 +63,10 @@ Namespace My.Resources
         '''<summary>
         '''  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property adr2021() As System.Drawing.Bitmap
+        Friend ReadOnly Property adr2023() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("adr2021", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("adr2023", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Cerca una risorsa localizzata di tipo System.Drawing.Icon simile a (Icona).
-        '''</summary>
-        Friend ReadOnly Property adr20211() As System.Drawing.Icon
-            Get
-                Dim obj As Object = ResourceManager.GetObject("adr20211", resourceCulture)
-                Return CType(obj,System.Drawing.Icon)
             End Get
         End Property
     End Module

@@ -433,6 +433,7 @@ Partial Class MainForm
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "MainForm"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Simulazione Esame ADR"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

@@ -64,7 +64,7 @@
     <OptionInfer>Off</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\adr2021.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\adr2023.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -171,8 +171,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\adr2021.ico" />
-    <Content Include="Resources\adr2021.jpg" />
+    <Content Include="Resources\adr2023.ico" />
+    <Content Include="Resources\adr2023.jpg" />
     <Content Include="Resources\AppExample.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
